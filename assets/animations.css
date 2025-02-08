@@ -1,0 +1,16 @@
+/* Subtle fade-in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+/* Apply animations */
+body {
+    animation: fadeIn 0.8s ease-in-out;
+}
